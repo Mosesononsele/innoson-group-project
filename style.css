@@ -38,16 +38,58 @@ main h2 {
     background-color: rgba(54, 95, 163, 1);
     font-family: "Noto Sans" sans-serif;
     font-weight: 600;
-    height: 6rem;
+    /* height: 6rem; */
     color: rgba(255, 255, 255, 1);;
 }
+
 
 .section-1 h3{
     width: 45%;
     margin: auto;
 }
-section-2{
+.section-2{
     background-color: rgb(254, 254, 254);
+}
+
+.section-3{
+    background-color: rgb(254, 254, 254);
+
+}
+
+.section-4{
+    background-color: rgb(254, 254, 254);
+    
+}
+
+.section-5{
+    background-color: rgb(254, 254, 254);;
+}
+
+.section-6{
+    background-image: url(/assets/ivn-multiple-hands.jpg);
+background-repeat: no-repeat;
+color: rgb(228, 226, 226);
+}
+
+footer{
+    background-color: black;
+    /* border: 3px solid red; */   
+}
+
+
+.copyright{
+  /* border-top: 2px solid white; */
+
+
+}
+
+.sec{
+    height: 25rem;
+}
+
+.email-colour{
+    background-color: black;
+    color: white;
 }
 
 
@@ -58,8 +100,13 @@ section-2{
 
     main h2 {
         width: 100%;
-    }
 }
+
+}
+
+
+
+
 
 @media(min-width: 768px) {
     main p {
@@ -73,4 +120,21 @@ section-2{
         width: 45%;
         margin: auto;
     }
+
+    footer{
+        /* display: flex;
+        gap: 4rem; */
+    }
+
+    .foot {
+    display: block;
+    flex-direction: column;
+    }
+    
+    .email{
+        display: flex;
+        /* flex-basis: 0; */
+        
+    }
+
 }
